@@ -25,7 +25,7 @@ public class ExplodingSheep extends JavaPlugin{
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args){
 		if(cmd.getName().equalsIgnoreCase("xsh")){ // If the player typed /basic then do the following...
 			if (sender instanceof Player) {
-				Player player = (Player) sender;
+				// Player player = (Player) sender;
 				// do some stuff
 			} else {
 		         sender.sendMessage("You must be a player!");
