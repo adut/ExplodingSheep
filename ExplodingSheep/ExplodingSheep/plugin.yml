@@ -1,0 +1,7 @@
+name: ExplodingSheep
+version: 0.1
+description: Sheep may explode when sheared
+main: com.github.adut.ExplodingSheep
+load: POSTWORLD
+author: adutude
+database: false

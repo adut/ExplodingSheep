@@ -4,11 +4,11 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.bukkit.permissions.*;
 
 public class ExplodingSheep extends JavaPlugin{
 	@Override
 	public void onEnable() {
+		getServer().getPluginManager().registerEvents(new ShearListener(), this);
 		getLogger().info("Exploding Sheep enabled");
 	}
 	
@@ -37,5 +37,6 @@ public class ExplodingSheep extends JavaPlugin{
 	        // If this hasn't happened the a value of false will be returned.
 		return false; 
 	}
-
+	
+	
 }
