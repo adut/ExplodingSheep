@@ -1,8 +1,5 @@
-name: mcMMO
+name: ExplodingSheep
 main: com.github.adut.ExplodingSheep
 version: 1.0
 author: adutude
 description: Your sheep will explode
-commands:
-    cxs:
-        description: change exploder
