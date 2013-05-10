@@ -1,4 +1,4 @@
-package com.github.adut;
+package com.github.adut.ExplodingSheep;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
