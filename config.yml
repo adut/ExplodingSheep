@@ -6,5 +6,8 @@
 xsexp: 1
 
 # Set the color of wool the sheep must have for it to explode or All for all colors
-xscolor: All
-
+# You'll want to use the names from the enums, i.e upper case, values are
+# Currently only supports all or a single color
+# (WHITE,GRAY,BLACK,BLUE,BROWN,CYAN,GREEN,
+#   LIGHT_BLUE,LIME,MAGENTA,ORANGE,PINK,PURPLE,RED,SILVER,YELLOW)
+xscolor: ALL
