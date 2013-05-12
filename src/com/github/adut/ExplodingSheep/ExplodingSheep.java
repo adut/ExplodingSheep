@@ -9,16 +9,9 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerShearEntityEvent;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.bukkit.configuration.*;
-import org.bukkit.configuration.file.*;
-
-
 
 public class ExplodingSheep extends JavaPlugin implements Listener {
-	
-
-
-	
+		
 	@Override
 	public void onEnable() {
 		
