@@ -1,0 +1,10 @@
+#
+# ExplodingSheep configuration
+####
+
+# Set the explosion strength
+xsexp: 1
+
+# Set the color of wool the sheep must have for it to explode or All for all colors
+xscolor: All
+

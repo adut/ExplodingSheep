@@ -3,3 +3,8 @@ main: com.github.adut.ExplodingSheep.ExplodingSheep
 version: 1.0
 author: adutude
 description: Your sheep will explode
+commands:
+    xsexp:
+        description: Change the explosion strength
+    xscolor:
+        description: Color of wool that will explode
